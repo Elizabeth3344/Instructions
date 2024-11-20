@@ -9,4 +9,4 @@ This error means that you need to install the rigid package for your lammps. To 
 2) Rigid may also need mpi-cxx package for parallel computing. The error "No package 'mpi-cxx' found" may appear during the trying to go `cmake ../cmake`. To solve the problem go `sudo apt install mpich` from your any current path. Now mpi is located in "lammps/src". You may check it's presents by command `ls | grep lmp_mpi` in "src".
 3) You may not to pay your attention on the messages such as "Could NOT find ClangFormat". This tool is needed for formatting and doesn't affect your codework.
 
-Congrats! All other errors may appear because your script sucks and is not working:)
+Congrats! All other errors may appear because your script is just not working:)
