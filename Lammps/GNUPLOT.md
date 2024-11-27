@@ -1,3 +1,5 @@
+Gnuplot is used to plot the graphics using the table with data after calculation in Lammps. <br />
+
 To run GNUPLOT :<br />
 ``gnuplot`` <br />
 ``plot 'log.lammps' using Xcolumn:Ycolumn``<br />
