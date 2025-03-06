@@ -11,7 +11,7 @@ This error means that you need to install the rigid package for your lammps. To 
 
 Running with mpi:
 1) Only once from home go to hidden file .bashrc, with the command `vim .bashrc` or `nano .bashrc` open it for additing (in `vim` use `insert`) and write at the end of the file: `export LD_LIBRARY_PATH=/home/elizaveta/lammps/src:$LD_LIBRARY_PATH` and `export PATH=/home/elizaveta/lammps/src:$PATH`. It is necessary for being able to use mpi from any of your location.
-2) Now to run the lammps script go in terminal: `mpirun -np 4 -in in.<file_name>`.
+2) Now to run the lammps script go in terminal from "modeling" folder: `mpirun -np 4 -in in.<file_name>`.
 
 Use ovito:
 `Downloads/ovito-basic-3.10.6-x86_64/bin/ovito`.
