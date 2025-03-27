@@ -61,7 +61,7 @@ fix npt all npt temp 300.0 300.0 100.0 iso 1.0 1.0 1000.0 # NPT термоста
 thermo_style custom step temp press etotal v_density_sys pe ke
 thermo 1000 # вывод каждые 1000 шагов
 
-fix             msd_fix all ave/time 100 10 1000 c_msdO[1] c_msdO[2] c_msdO[3] c_msdO[4] file msd_oxygen.out
+# fix             msd_fix all ave/time 100 10 1000 c_msdO[1] c_msdO[2] c_msdO[3] c_msdO[4] file msd_oxygen.out
 
 run 40000 # Запуск NPT моделирования на 40000 шагов
 
